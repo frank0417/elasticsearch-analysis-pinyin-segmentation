@@ -62,7 +62,7 @@ specify the analyzer in index mapping, for example
     }'
 
 Restart ES
-try
+try the following
 
     http://localhost:9200/{index_name}/_analyze?text=%e5%88%98%e5%be%b7%e5%8d%8e&analyzer=pinyin_analyzer
     http://localhost:9200/{index_name}/_analyze?text=liudehua&analyzer=pinyin_analyzer
